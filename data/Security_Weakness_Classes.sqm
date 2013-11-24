@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<qualitymodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qualitymodel.xsd">
+    <versions>
+        <version author="user" date="2013-04-29 14:00" number="18"/>
+       
+    </versions>
+    
+    <qualityhierarchy>
+        <item child="Security-Weakness-Classes"/>
+        <item child="Authentication%20and%20Access%20Control" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE15" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE247" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE256" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE259" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE272" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE284" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE491" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE500" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE549" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE560" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE566" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE582" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE607" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE613" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE614" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE620" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Juliet-Testsuite$CWE784" parent="Authentication%20and%20Access%20Control"/>
+        <item child="Buffer%20Handling" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE121" parent="Buffer%20Handling"/>
+        <item child="Juliet-Testsuite$CWE122" parent="Buffer%20Handling"/>
+        <item child="Juliet-Testsuite$CWE123" parent="Buffer%20Handling"/>
+        <item child="Juliet-Testsuite$CWE124" parent="Buffer%20Handling"/>
+        <item child="Juliet-Testsuite$CWE126" parent="Buffer%20Handling"/>
+        <item child="Juliet-Testsuite$CWE127" parent="Buffer%20Handling"/>
+        <item child="Juliet-Testsuite$CWE242" parent="Buffer%20Handling"/>
+        <item child="Juliet-Testsuite$CWE680" parent="Buffer%20Handling"/>
+        <item child="Juliet-Testsuite$CWE785" parent="Buffer%20Handling"/>
+        <item child="Code%20Quality" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE398" parent="Code%20Quality"/>
+        <item child="Juliet-Testsuite$CWE477" parent="Code%20Quality"/>
+        <item child="Juliet-Testsuite$CWE478" parent="Code%20Quality"/>
+        <item child="Juliet-Testsuite$CWE484" parent="Code%20Quality"/>
+        <item child="Juliet-Testsuite$CWE547" parent="Code%20Quality"/>
+        <item child="Juliet-Testsuite$CWE561" parent="Code%20Quality"/>
+        <item child="Juliet-Testsuite$CWE563" parent="Code%20Quality"/>
+        <item child="Juliet-Testsuite$CWE570" parent="Code%20Quality"/>
+        <item child="Juliet-Testsuite$CWE571" parent="Code%20Quality"/>
+        <item child="Juliet-Testsuite$CWE585" parent="Code%20Quality"/>
+        <item child="Juliet-Testsuite$CWE676" parent="Code%20Quality"/>
+        <item child="Control%20Flow%20Management" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE180" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE364" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE366" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE367" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE382" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE383" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE479" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE483" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE572" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE584" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE606" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE609" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE674" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE698" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE764" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE765" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE832" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE833" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE835" parent="Control%20Flow%20Management"/>
+        <item child="Encryption%20and%20Randomness" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE315" parent="Encryption%20and%20Randomness"/>
+        <item child="Juliet-Testsuite$CWE319" parent="Encryption%20and%20Randomness"/>
+        <item child="Juliet-Testsuite$CWE327" parent="Encryption%20and%20Randomness"/>
+        <item child="Juliet-Testsuite$CWE328" parent="Encryption%20and%20Randomness"/>
+        <item child="Juliet-Testsuite$CWE329" parent="Encryption%20and%20Randomness"/>
+        <item child="Juliet-Testsuite$CWE330" parent="Encryption%20and%20Randomness"/>
+        <item child="Juliet-Testsuite$CWE336" parent="Encryption%20and%20Randomness"/>
+        <item child="Juliet-Testsuite$CWE338" parent="Encryption%20and%20Randomness"/>
+        <item child="Juliet-Testsuite$CWE523" parent="Encryption%20and%20Randomness"/>
+        <item child="Juliet-Testsuite$CWE759" parent="Encryption%20and%20Randomness"/>
+        <item child="Juliet-Testsuite$CWE760" parent="Encryption%20and%20Randomness"/>
+        <item child="Juliet-Testsuite$CWE780" parent="Encryption%20and%20Randomness"/>
+        <item child="Error%20Handling" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE248" parent="Error%20Handling"/>
+        <item child="Juliet-Testsuite$CWE252" parent="Error%20Handling"/>
+        <item child="Juliet-Testsuite$CWE253" parent="Error%20Handling"/>
+        <item child="Juliet-Testsuite$CWE273" parent="Error%20Handling"/>
+        <item child="Juliet-Testsuite$CWE390" parent="Error%20Handling"/>
+        <item child="Juliet-Testsuite$CWE391" parent="Error%20Handling"/>
+        <item child="Juliet-Testsuite$CWE392" parent="Error%20Handling"/>
+        <item child="Juliet-Testsuite$CWE396" parent="Error%20Handling"/>
+        <item child="Juliet-Testsuite$CWE397" parent="Error%20Handling"/>
+        <item child="Juliet-Testsuite$CWE440" parent="Error%20Handling"/>
+        <item child="Juliet-Testsuite$CWE600" parent="Error%20Handling"/>
+        <item child="Juliet-Testsuite$CWE617" parent="Error%20Handling"/>
+        <item child="File%20Handling" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE23" parent="File%20Handling"/>
+        <item child="Juliet-Testsuite$CWE36" parent="File%20Handling"/>
+        <item child="Juliet-Testsuite$CWE377" parent="File%20Handling"/>
+        <item child="Juliet-Testsuite$CWE378" parent="File%20Handling"/>
+        <item child="Juliet-Testsuite$CWE379" parent="File%20Handling"/>
+        <item child="Juliet-Testsuite$CWE675" parent="File%20Handling"/>
+        <item child="Information%20Leaks" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE204" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE209" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE226" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE244" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE497" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE499" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE533" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE534" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE535" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE591" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE598" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE615" parent="Information%20Leaks"/>
+        <item child="Initialization%20and%20Shutdown" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE400" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE401" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE404" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE415" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE416" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE457" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE459" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE568" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE580" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE586" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE590" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE665" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE672" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE761" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE762" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE772" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE773" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE775" parent="Initialization%20and%20Shutdown"/>
+        <item child="Juliet-Testsuite$CWE789" parent="Initialization%20and%20Shutdown"/>
+        <item child="Injection" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE113" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE129" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE134" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE427" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE436" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE470" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE601" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE643" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE78" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE80" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE81" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE83" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE89" parent="Injection"/>
+        <item child="Juliet-Testsuite$CWE90" parent="Injection"/>
+        <item child="Malicious%20Logic" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE111" parent="Malicious%20Logic"/>
+        <item child="Juliet-Testsuite$CWE114" parent="Malicious%20Logic"/>
+        <item child="Juliet-Testsuite$CWE304" parent="Malicious%20Logic"/>
+        <item child="Juliet-Testsuite$CWE321" parent="Malicious%20Logic"/>
+        <item child="Juliet-Testsuite$CWE325" parent="Malicious%20Logic"/>
+        <item child="Juliet-Testsuite$CWE506" parent="Malicious%20Logic"/>
+        <item child="Juliet-Testsuite$CWE510" parent="Malicious%20Logic"/>
+        <item child="Juliet-Testsuite$CWE511" parent="Malicious%20Logic"/>
+        <item child="Juliet-Testsuite$CWE514" parent="Malicious%20Logic"/>
+        <item child="Juliet-Testsuite$CWE546" parent="Malicious%20Logic"/>
+        <item child="Miscellaneous" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE188" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE222" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE223" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE464" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE475" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE480" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE481" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE482" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE486" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE489" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE579" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE581" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE597" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE605" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE666" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE685" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE688" parent="Miscellaneous"/>
+        <item child="Juliet-Testsuite$CWE758" parent="Miscellaneous"/>
+        <item child="Number%20Handling" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE190" parent="Number%20Handling"/>
+        <item child="Juliet-Testsuite$CWE191" parent="Number%20Handling"/>
+        <item child="Juliet-Testsuite$CWE193" parent="Number%20Handling"/>
+        <item child="Juliet-Testsuite$CWE194" parent="Number%20Handling"/>
+        <item child="Juliet-Testsuite$CWE195" parent="Number%20Handling"/>
+        <item child="Juliet-Testsuite$CWE196" parent="Number%20Handling"/>
+        <item child="Juliet-Testsuite$CWE197" parent="Number%20Handling"/>
+        <item child="Juliet-Testsuite$CWE369" parent="Number%20Handling"/>
+        <item child="Juliet-Testsuite$CWE681" parent="Number%20Handling"/>
+        <item child="Pointer%20and%20Reference%20Handling" parent="Security-Weakness-Classes"/>
+        <item child="Juliet-Testsuite$CWE374" parent="Pointer%20and%20Reference%20Handling"/>
+        <item child="Juliet-Testsuite$CWE395" parent="Pointer%20and%20Reference%20Handling"/>
+        <item child="Juliet-Testsuite$CWE467" parent="Pointer%20and%20Reference%20Handling"/>
+        <item child="Juliet-Testsuite$CWE468" parent="Pointer%20and%20Reference%20Handling"/>
+        <item child="Juliet-Testsuite$CWE469" parent="Pointer%20and%20Reference%20Handling"/>
+        <item child="Juliet-Testsuite$CWE476" parent="Pointer%20and%20Reference%20Handling"/>
+        <item child="Juliet-Testsuite$CWE562" parent="Pointer%20and%20Reference%20Handling"/>
+        <item child="Juliet-Testsuite$CWE587" parent="Pointer%20and%20Reference%20Handling"/>
+        <item child="Juliet-Testsuite$CWE588" parent="Pointer%20and%20Reference%20Handling"/>
+        <item child="Juliet-Testsuite$CWE690" parent="Pointer%20and%20Reference%20Handling"/>
+        <item child="Juliet-Testsuite$CWE843" parent="Pointer%20and%20Reference%20Handling"/>
+		<item child="FindBugs$CMNS" parent="Initialization%20and%20Shutdown"/>
+<item child="FindBugs$MISE" parent="Control%20Flow%20Management"/>
+<item child="FindBugs$EIOF" parent="Initialization%20and%20Shutdown"/>
+<item child="FindBugs$FNSF" parent="Initialization%20and%20Shutdown"/>
+<item child="FindBugs$EQNH" parent="Miscellaneous"/>
+<item child="FindBugs$CDEU" parent="Miscellaneous"/>
+<item child="FindBugs$SNSO" parent="Miscellaneous"/>
+<item child="FindBugs$FCDB" parent="Initialization%20and%20Shutdown"/>
+<item child="FindBugs$DNCE" parent="Initialization%20and%20Shutdown"/>
+<item child="FindBugs$FNCS" parent="Initialization%20and%20Shutdown"/>
+<item child="FindBugs$SNCE" parent="Initialization%20and%20Shutdown"/>
+<item child="FindBugs$IMIN" parent="Code%20Quality"/>
+<item child="FindBugs$EQAF" parent="Code%20Quality"/>
+<item child="FindBugs$EQAT" parent="Code%20Quality"/>
+<item child="FindBugs$IVCD" parent="Number%20Handling"/>
+<item child="FindBugs$IVCF" parent="Number%20Handling"/>
+<item child="FindBugs$AAIL" parent="Control%20Flow%20Management"/>
+<item child="FindBugs$NPIM" parent="Pointer%20and%20Reference%20Handling"/>
+<item child="FindBugs$NPDM" parent="Pointer%20and%20Reference%20Handling"/>
+<item child="FindBugs$PNPD" parent="Pointer%20and%20Reference%20Handling"/>
+<item child="FindBugs$PONP" parent="Pointer%20and%20Reference%20Handling"/>
+<item child="FindBugs$DSDS" parent="Code%20Quality"/>
+<item child="FindBugs$FSBF" parent="Authentication%20and%20Access%20Control"/>
+<item child="FindBugs$ESYB" parent="Code%20Quality"/>
+<item child="FindBugs$EIOR" parent="Control%20Flow%20Management"/>
+<item child="FindBugs$UNUF" parent="Code%20Quality"/>
+<item child="FindBugs$RPHH" parent="Injection"/>
+<item child="FindBugs$NSTM" parent="Injection"/>
+<item child="FindBugs$PSGS" parent="Injection"/>
+<item child="FindBugs$RPRJ" parent="Injection"/>
+<item child="FindBugs$RPSE" parent="Injection"/>
+<item child="FindBugs$RPSW" parent="Injection"/>
+<item child="FindBugs$IDDF" parent="Number%20Handling"/>
+<item child="FindBugs$RIML" parent="Number%20Handling"/>
+<item child="FindBugs$PNMI" parent="Pointer%20and%20Reference%20Handling"/>
+<item child="FindBugs$CSWB" parent="Code%20Quality"/>
+<item child="FindBugs$IICPC" parent="Number%20Handling"/>
+<item child="FindBugs$OUOON" parent="Initialization%20and%20Shutdown"/>
+<item child="FindBugs$OUOEE" parent="Initialization%20and%20Shutdown"/>
+<item child="FindBugs$MSRTF" parent="Authentication%20and%20Access%20Control"/>
+<item child="FindBugs$PTAPT" parent="File%20Handling"/>
+<item child="FindBugs$PTRPT" parent="File%20Handling"/>
+<item child="FindBugs$SFSND" parent="Code%20Quality"/>
+<item child="FindBugs$UUPPF" parent="Code%20Quality"/>
+<item child="PMD$ECBL" parent="Error%20Handling"/>
+<item child="PMD$OEQHAS" parent="Miscellaneous"/>
+<item child="PMD$DCLO" parent="Control%20Flow%20Management"/>
+<item child="PMD$RFFB" parent="Control%20Flow%20Management"/>
+<item child="PMD$ESBL" parent="Code%20Quality"/>
+<item child="PMD$UIFS" parent="Code%20Quality"/>
+<item child="PMD$CHKR" parent="Error%20Handling"/>
+<item child="PMD$EMPINIT" parent="Initialization%20and%20Shutdown"/>
+<item child="PMD$DCTHRU" parent="Control%20Flow%20Management"/>
+<item child="PMD$ISMUB" parent="Control%20Flow%20Management"/>
+<item child="PMD$WMUB" parent="Control%20Flow%20Management"/>
+<item child="PMD$IMUB" parent="Control%20Flow%20Management"/>
+<item child="PMD$FMUB" parent="Control%20Flow%20Management"/>
+<item child="PMD$PCIR" parent="Initialization%20and%20Shutdown"/>
+<item child="PMD$SSSD" parent="Code%20Quality"/>
+<item child="PMD$CRES" parent="Initialization%20and%20Shutdown"/>
+<item child="PMD$MBIS" parent="Code%20Quality"/>
+<item child="PMD$FDCS" parent="Initialization%20and%20Shutdown"/>
+<item child="PMD$ACFI" parent="Initialization%20and%20Shutdown"/>
+<item child="PMD$DCSE" parent="Control%20Flow%20Management"/>
+<item child="PMD$SEFF" parent="Authentication%20and%20Access%20Control"/>
+<item child="PMD$DNUT" parent="Control%20Flow%20Management"/>
+<item child="PMD$AVCGE" parent="Error%20Handling"/>
+<item child="PMD$PFNU" parent="Code%20Quality"/>
+<item child="PMD$ULVAR" parent="Code%20Quality"/>
+<item child="PMD$UFPA" parent="Code%20Quality"/>
+<item child="PMD$GDSSID" parent="Injection"/>
+<item child="PMD$GDSSSC" parent="Injection"/>
+<item child="PMD$GDSUR" parent="Injection"/>
+    </qualityhierarchy>
+
+</qualitymodel>

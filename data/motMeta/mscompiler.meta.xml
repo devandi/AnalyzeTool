@@ -1,0 +1,17 @@
+<motmetafile hint="Microsoft Compiler (cl.exe /analzye former PreFast)">
+
+	<structure>
+		<file/>
+		<line/>
+		<metric/>	
+	</structure>	
+
+	<definition>
+		<tool value="MSCompiler"/>
+		<metric start="&lt;DEFECTCODE&gt;" end="&lt;/DEFECTCODE&gt;"/>
+		<file start="&lt;FILENAME&gt;" end="&lt;/FILENAME&gt;" cutpath="false"/>
+		<value value=""/>
+		<line start="&lt;LINE&gt;" end="&lt;/LINE&gt;"/>
+		<detail value=""/>
+	</definition>
+</motmetafile>

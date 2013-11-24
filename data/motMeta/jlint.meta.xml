@@ -1,0 +1,47 @@
+<motmetafile>
+
+	<structure>	
+		<file1 attribute="file"/>
+		<file2 attribute="file"/>
+		<line/>	
+		<metric/>	
+	</structure>
+
+	<definition>
+		<tool value="JLint"/>	
+		<metric start="" end="."/>
+		<file cutpath="true"/>
+		<file1 start="" end=":" processtype="-+"/>
+		<file2 start="" end=":" />
+		<value value=""/>
+		<line start="" end=": "/>		
+		<detail refvalue="metric"/>
+	</definition>
+	
+	<library>
+		<metric key="Inequality comparison can be replaced with equality comparison" value="CCBS"/>
+		<metric key="*can't be produced by switch expression" value="CCNP"/>
+		<metric key="Comparison always produces the same result" value="CPSR"/>
+		<metric key="Data can be lost as a result of truncation to*" value="DLBT"/>
+		<metric key="*can be accessed from different threads and is not volatile" value="FINV"/>
+		<metric key="Maybe type cast is not correctly applied" value="ICTC"/>
+		<metric key="*changed outside synchronization or constructor" value="LCOS"/>
+		<metric key="*changed while (potentially) owning it" value="LCWO"/>
+		<metric key="*parameter and this parameter is used without check for NULL" value="PMBN"/>
+		<metric key="Compare strings as object references" value="SCBR"/>
+		<metric key="*may be NULL" value="VMNU"/>
+		<metric key="Zero operand*" value="ZOPE"/>
+		
+		<!--AW20130730 self generated -->
+		<metric key="* invocation of synchronized method *" value="AWSMCD"/>
+<metric key="Method wait\(\) can be invoked with monitor of other object locked" value="AWWID"/>
+<metric key="Method finalize\(\) doesn't call super*" value="AWDCSF"/>
+<metric key="NULL reference can be used" value="AWNRCBU"/>
+		
+	</library>
+	
+	<filter>
+		<filter start="Verification completed:" end="reported messages."/>
+	</filter>
+	
+</motmetafile>

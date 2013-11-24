@@ -1,0 +1,17 @@
+<motmetafile hint="JULIET-STATIC-ANALYZER" filetype="xml">
+
+	<structure>
+		<file/>
+		<line/>
+		<metric/>	
+	</structure>	
+
+	<definition>
+		<tool value="Juliet-Testsuite"/>
+		<metric start=" type=&quot;" end="&quot;"/>
+		<file start="file path=&quot;" end="&quot;" cutpath="true"/>
+		<value value=""/>
+		<line start=" startLine=&quot;" end="&quot;"/>
+		<detail value=""/>
+	</definition>
+</motmetafile>
